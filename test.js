@@ -1,32 +1,12 @@
-// Declaration and Definition before using // Works
-var x = 10
-console.log(x)
+// Loops
+// For Loop
+for (var i = 0; i < 10; i++) {
+    console.log("Hello")
+}
 
-// Declaration and Definition after using // UnDefined Output but no error
-var y
-console.log(y)
-y = 20
-
-// Testing with floating values
-var pi = 3.14
-console.log(pi)
-
-// Strings
-var car = "Totoyo"
-console.log(car)
-
-// bool values
-var a = true
-var b = false
-
-console.log(a)
-console.log(b)
-
-// Null Type
-var c = null
-var d = NaN
-var e = undefined
-
-console.log(c)
-console.log(d)
-console.log(e)
+// While Loop
+var k = 0;
+while (k <= 10) {
+    console.log(k)
+    k++;
+}
