@@ -6,3 +6,11 @@ console.log(x)
 console.log(y)
 var y = 20
 
+// Testing with floating values
+var pi = 3.14
+console.log(pi)
+
+// Strings
+var car = "Totoyo"
+console.log(car)
+
