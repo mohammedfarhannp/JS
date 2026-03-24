@@ -14,3 +14,18 @@ console.log(pi)
 var car = "Totoyo"
 console.log(car)
 
+// bool values
+var a = true
+var b = false
+
+console.log(a)
+console.log(b)
+
+// Null Type
+var c = null
+var d = NaN
+var e = undefined
+
+console.log(c)
+console.log(d)
+console.log(e)
