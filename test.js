@@ -3,8 +3,9 @@ var x = 10
 console.log(x)
 
 // Declaration and Definition after using // UnDefined Output but no error
+var y
 console.log(y)
-var y = 20
+y = 20
 
 // Testing with floating values
 var pi = 3.14
