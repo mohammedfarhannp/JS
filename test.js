@@ -8,7 +8,13 @@ console.log(Object_Car["Name"])
 
 
 // loop through Object
-
+// Method 1
 for (let key in Object_Car) {
     console.log(key, Object_Car[key])
 }
+
+// Method 2
+Object.keys(Object_Car).forEach( key => {
+    console.log(key, Object_Car[key])
+});
+
