@@ -22,3 +22,8 @@ Object.keys(Object_Car).forEach( key => {
 Object.values(Object_Car).forEach(value => {
     console.log(value)
 })
+
+// Method 4
+Object.entries(Object_Car).forEach(([key, value]) => {
+    console.log(key, value)
+})
