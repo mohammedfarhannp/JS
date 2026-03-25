@@ -1,12 +1,14 @@
-// Function Example
-function example() {
-    console.log("Example Funcion!")
-}
+// Objects
+// Similar to Python Dictionaries
 
-// Add Function
-// Unlike C language you don't have to specify it to be a variable or it's type for parameter
-function add(a, b) {
-    return a + b;
-}
+var Object_Car = { "Name": "Totoyo", "Model": "U891", "Color": "Vanta Black", "Owner": "BATTMAAN" }
 
-console.log(add(7, 7))
+console.log(Object_Car)
+console.log(Object_Car["Name"])
+
+
+// loop through Object
+
+for (let key in Object_Car) {
+    console.log(key, Object_Car[key])
+}
