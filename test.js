@@ -18,3 +18,7 @@ Object.keys(Object_Car).forEach( key => {
     console.log(key, Object_Car[key])
 });
 
+// Method 3
+Object.values(Object_Car).forEach(value => {
+    console.log(value)
+})
